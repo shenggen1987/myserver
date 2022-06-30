@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "fontend",
+      "script": "./index.js",
+      "watch": false
+    }
+  ]
+}

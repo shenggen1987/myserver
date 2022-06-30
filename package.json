@@ -1,0 +1,16 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "pm2 startOrReload pm2.deploy.json"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-morgan": "^1.0.1",
+    "koa-static": "^5.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
